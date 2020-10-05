@@ -1,12 +1,443 @@
 {
   "blocks": [{
-    "name": "2 Truths and a Lie",
-    "desc": "Tell 2 truths and a lie, everyone guesses which is the lie. You drink for every correct guess",
-    "img":"1.png"
-  },
-  {
+    "name": "2 truths & a lie",
+    "desc": "Tell 2 truths and a lie, everyone guesses what the lie is. You drink whenever someone guesses correctly",
+    "img": "1.png"
+  }, {
     "name": "4 Eyes",
     "desc": "Anyone with glasses drinks",
-    "img":"3.png"
+    "img": "2.png"
+  }, {
+    "name": "Accent",
+    "desc": "Speak with an accent for the rest of the game",
+    "img": "3.png"
+  }, {
+    "name": "Archenemy",
+    "desc": "Give someone 4 drinks",
+    "img": "4.png"
+  }, {
+    "name": "arm wrestle",
+    "desc": "Arm wrestle with the person to your left. The loser drinks",
+    "img": "5.png"
+  }, {
+    "name": "Baby Talk",
+    "desc": "You can only speak in one syllable words",
+    "img": "6.png"
+  }, {
+    "name": "Backseat driver",
+    "desc": "Person to your left picks the piece you pull next turn",
+    "img": "7.png"
+  }, {
+    "name": "bar tender",
+    "desc": "You are now the bartender and have to fetch or mix everyones drinks",
+    "img": "8.png"
+  }, {
+    "name": "Batman",
+    "desc": "You have to talk like Batman",
+    "img": "9.png"
+  }, {
+    "name": "battle of the sexes",
+    "desc": "Opposite sex of you drinks",
+    "img": "10.png"
+  }, {
+    "name": "bipolar",
+    "desc": "compliment person to your right, insult person to your left",
+    "img": "11.png"
+  }, {
+    "name": "Blind man",
+    "desc": "For the rest of the game you have to pull the block out with your eyes shut",
+    "img": "12.png"
+  }, {
+    "name": "body guard",
+    "desc": "Pick someone to be your bodyguard, they must taste your drink before you drink it for the rest of the game",
+    "img": "13.png"
+  }, {
+    "name": "Boobs",
+    "desc": "All girls drink",
+    "img": "14.png"
+  }, {
+    "name": "BRO",
+    "desc": "If you make eye contact with someone you have ot say bro",
+    "img": "15.png"
+  }, {
+    "name": "Buckle Up",
+    "desc": "you are now buckled in, you must undo and redo your seat belt when you get up",
+    "img": "16.png"
+  }, {
+    "name": "Can of Whoop-Ass",
+    "desc": "At any one time during the game someone gives you 2 or more drinks, you may give them 10 drinks in return.  If you are a Bodyguard, you may also do so if the drinks are given to the person you're guarding.\t",
+    "img": "17.png"
+  }, {
+    "name": "Cannonball",
+    "desc": "Pick a Code Word.  If you hear this code word, you must destroy the tower and the person responsible drinks",
+    "img": "18.png"
+  }, {
+    "name": "Cartwheel",
+    "desc": "Pull a semi decent cartwheel and everyone else drinks - otherwise you drink",
+    "img": "19.png"
+  }, {
+    "name": "Categories",
+    "desc": "Pick a category, everyone must say something in that category. First person to Fails drinks",
+    "img": "20.png"
+  }, {
+    "name": "Censored",
+    "desc": "When you Swear, You Drink",
+    "img": "21.png"
+  }, {
+    "name": "Cheers",
+    "desc": "Give 2, take 2",
+    "img": "22.png"
+  }, {
+    "name": "Clothes Swap",
+    "desc": "Choose two players, they must swap a selected piece of clothing eith eacother",
+    "img": "23.png"
+  }, {
+    "name": "cocktail of doom",
+    "desc": "Everyone makes a shot for you to take. ",
+    "img": "24.png"
+  }, {
+    "name": "codenames",
+    "desc": "Other players give you a nickname that you are now refered by",
+    "img": "25.png"
+  }, {
+    "name": "compliments",
+    "desc": "give a compliment to everyone in the room",
+    "img": "26.png"
+  }, {
+    "name": "copycat",
+    "desc": "The last block now applies to you",
+    "img": "27.png"
+  }, {
+    "name": "cray cray cat lady",
+    "desc": "drink for every cat you have ever owned",
+    "img": "28.png"
+  }, {
+    "name": "crypt keeper",
+    "desc": "oldest person drinks",
+    "img": "29.png"
+  }, {
+    "name": "Deja Vu: ",
+    "desc": "Previous person goes again!",
+    "img": "30.png"
+  }, {
+    "name": "Depersonalization",
+    "desc": "You can no longer call anyone by their names, and you cannot point at them. ",
+    "img": "31.png"
+  }, {
+    "name": "Dicks",
+    "desc": "All guys drink",
+    "img": "32.png"
+  }, {
+    "name": "Dicktator",
+    "desc": "As long as this block i s blanaced on your head you are impervious from any other blocks",
+    "img": "33.png"
+  }, {
+    "name": "Diddle Finger",
+    "desc": "you can only use one finger to remove blocks",
+    "img": "34.png"
+  }, {
+    "name": "ditto",
+    "desc": "Pick someone to ditto for the rest of the game - When they Drink you Drink, When you Drink They Drink",
+    "img": "35.png"
+  }, {
+    "name": "Do Over",
+    "desc": "Put this piece back in the tower and pull a different one.        ",
+    "img": "36.png"
+  }, {
+    "name": "Double Hands",
+    "desc": "Use both hands when your handling your drink or pulling blocks",
+    "img": "37.png"
+  }, {
+    "name": "down the hatch",
+    "desc": "Finish your drink",
+    "img": "38.png"
+  }, {
+    "name": "drink pulling",
+    "desc": "On your next turn take a block while drinking",
+    "img": "39.png"
+  }, {
+    "name": "Drink swap",
+    "desc": "Swap your drink with someone elses",
+    "img": "40.png"
+  }, {
+    "name": "embryo",
+    "desc": "The youngest person dirnks",
+    "img": "41.png"
+  }, {
+    "name": "Eye Contact",
+    "desc": "Pull another block from the tower while maintaining eye contact with the person across from you",
+    "img": "42.png"
+  }, {
+    "name": "Fortune Teller",
+    "desc": "Predict who will cause the tower to fall. If your right pick someone to be a loser with them. Otherwise you drink with the loser",
+    "img": "43.png"
+  }, {
+    "name": "Game of Chicken",
+    "desc": "Give 1 drink. That player may give you back 1. You may then give them back another. Keep going until someone bails, they then have to drink the last given",
+    "img": "44.png"
+  }, {
+    "name": "Ghost",
+    "desc": "Reenact the scene from ghost, and help the next player remove their piece while behind them arms around their body",
+    "img": "45.png"
+  }, {
+    "name": "give 1",
+    "desc": "give 1",
+    "img": "46.png"
+  }, {
+    "name": "give 2",
+    "desc": "give 2",
+    "img": "47.png"
+  }, {
+    "name": "Give 3",
+    "desc": "give 3",
+    "img": "48.png"
+  }, {
+    "name": "God save the queen",
+    "desc": "If someone puts a coin in your drink you must drown it as the queen is drowning & its your civil duty to save her",
+    "img": "49.png"
+  }, {
+    "name": "Greedy Cunt",
+    "desc": "Take another block",
+    "img": "50.png"
+  }, {
+    "name": "Guess underwear colour",
+    "desc": "The player has to guess the other player's underwear colour, drinks for every wrong answer.",
+    "img": "51.png"
+  }, {
+    "name": "Gun Show",
+    "desc": "Bare your biceps and flex for everyone. players next to you drink for the view",
+    "img": "52.png"
+  }, {
+    "name": "hand switch",
+    "desc": "Use your non-dominant hand to pull blocks",
+    "img": "53.png"
+  }, {
+    "name": "heads up",
+    "desc": "do not read aloud, throw this tile at someone. if they catch you drink otherwise they drink",
+    "img": "54.png"
+  }, {
+    "name": "i am groot",
+    "desc": "tallest person drinks",
+    "img": "55.png"
+  }, {
+    "name": "I'm a doctor, not a bricklayer!",
+    "desc": "Take a Drink and get someone else to put this block on the tower",
+    "img": "56.png"
+  }, {
+    "name": "Indecisive",
+    "desc": "Take another block and put it back",
+    "img": "57.png"
+  }, {
+    "name": "Jar Jar",
+    "desc": "You have to speak like JarJar Binks",
+    "img": "58.png"
+  }, {
+    "name": "Know it all",
+    "desc": "You are now the question master, if someone answers a question you ask they must drink - Lasts until used",
+    "img": "59.png"
+  }, {
+    "name": "Lightning Round",
+    "desc": "Lighting round, going around every player till its back to you everyone only has 10 second to remove a block",
+    "img": "60.png"
+  }, {
+    "name": "make a rule",
+    "desc": "make a rule that stands for the rest of the game",
+    "img": "61.png"
+  }, {
+    "name": "Mamma Bird",
+    "desc": "Take a drink, but the person to your right pours it into your mouth",
+    "img": "62.png"
+  }, {
+    "name": "mini-me",
+    "desc": "The Shortest Person Drinks",
+    "img": "63.png"
+  }, {
+    "name": "Narcissist",
+    "desc": "Everyone Compliments you when they have to drink",
+    "img": "64.png"
+  }, {
+    "name": "Neighbours",
+    "desc": "The two people next to you must drink",
+    "img": "65.png"
+  }, {
+    "name": "never have i ever",
+    "desc": "Make a statement about something youve never done, anyone who has done this drinks",
+    "img": "66.png"
+  }, {
+    "name": "No Depth Perception",
+    "desc": "For the rest of the game you must drink with your eyes closed.",
+    "img": "67.png"
+  }, {
+    "name": "no guts no glory",
+    "desc": "you cant take any center pieces",
+    "img": "68.png"
+  }, {
+    "name": "not it",
+    "desc": "do not read aloud, the last player to touch there finger to their nose must drink 2",
+    "img": "69.png"
+  }, {
+    "name": "one must drink",
+    "desc": "everyone votes, person with most votes drinks",
+    "img": "70.png"
+  }, {
+    "name": "pass",
+    "desc": "Do not place on top of the tower. On a future turn you can place this piece instead of pulling a new piece",
+    "img": "71.png"
+  }, {
+    "name": "Pirate",
+    "desc": "YAAARRR, talk like a pirate ",
+    "img": "72.png"
+  }, {
+    "name": "Point of No Return",
+    "desc": "You must take a tile from within 3 rows of the top for the rest of the game.",
+    "img": "73.png"
+  }, {
+    "name": "Psychiatrist",
+    "desc": "Describe an embarrassing personal moment and choose someone to analyze it. Both of you drink 1",
+    "img": "74.png"
+  }, {
+    "name": "Pushup",
+    "desc": "Everyone has to do 10 pushups or drink 2",
+    "img": "75.png"
+  }, {
+    "name": "Questions",
+    "desc": "Everyone speaks in questions, when someone doesnt they drink and its over",
+    "img": "76.png"
+  }, {
+    "name": "Quiet Please",
+    "desc": "Anyone who makes noise during your turn must drink, must \"shh\" at the beginning of your turn",
+    "img": "77.png"
+  }, {
+    "name": "rainbow connection",
+    "desc": "pick a colour, everyone drinks if they are wearing that colour",
+    "img": "78.png"
+  }, {
+    "name": "Remove a Rule",
+    "desc": "Remove an rule from the game",
+    "img": "79.png"
+  }, {
+    "name": "Reverse",
+    "desc": "Order of play reverses",
+    "img": "80.png"
+  }, {
+    "name": "rewind",
+    "desc": "take a block from the top and put it back into the tower",
+    "img": "81.png"
+  }, {
+    "name": "Rhyme",
+    "desc": "Say a word, person to right has to say a word that rhymes with it. First person to not rhyme drinks",
+    "img": "82.png"
+  }, {
+    "name": "Rock, Paper, Scissors",
+    "desc": "On a count of 3, everyone throws down. You drink for every person who beats you. Every person you beat drinks 1",
+    "img": "83.png"
+  }, {
+    "name": "Roger Roger",
+    "desc": "You must finish every sentence with \"Roger Roger\"",
+    "img": "84.png"
+  }, {
+    "name": "Royale we",
+    "desc": "refer to yourself as the royal \"We\"",
+    "img": "85.png"
+  }, {
+    "name": "santa",
+    "desc": "sit on the person opposite lap until its your turn again",
+    "img": "86.png"
+  }, {
+    "name": "siblings",
+    "desc": "Drink 1 for every sibling you have",
+    "img": "87.png"
+  }, {
+    "name": "Skip",
+    "desc": "Skip the next player",
+    "img": "88.png"
+  }, {
+    "name": "slap",
+    "desc": "everyone gets a free gentle slap on you during the game",
+    "img": "89.png"
+  }, {
+    "name": "snake eyes",
+    "desc": "if anyone looks into your eyes for the rest of the game they drink",
+    "img": "90.png"
+  }, {
+    "name": "Soberesest",
+    "desc": "The least drunk person in the group has to drink",
+    "img": "91.png"
+  }, {
+    "name": "sociable drinking",
+    "desc": "everyone drinks",
+    "img": "92.png"
+  }, {
+    "name": "speech",
+    "desc": "make a 60 second speech",
+    "img": "93.png"
+  }, {
+    "name": "spin the bottle",
+    "desc": "spin the bottle, looser drinks",
+    "img": "94.png"
+  }, {
+    "name": "Staring Contest",
+    "desc": "Challenge someone to stare down first one to blink drinks.",
+    "img": "95.png"
+  }, {
+    "name": "Swine Rulls",
+    "desc": "To talk to a person you have to point at them - you also have to swear constantly",
+    "img": "96.png"
+  }, {
+    "name": "t-rex arms",
+    "desc": "you must do everything with t-rex arms for the rest of the game, elbows touching your sides",
+    "img": "97.png"
+  }, {
+    "name": "take 1",
+    "desc": "Take 1",
+    "img": "98.png"
+  }, {
+    "name": "take 2",
+    "desc": "Take 3",
+    "img": "99.png"
+  }, {
+    "name": "take 2 and redo",
+    "desc": "Take 2 drinks and pull another tile",
+    "img": "100.png"
+  }, {
+    "name": "take 3",
+    "desc": "Take 3",
+    "img": "101.png"
+  }, {
+    "name": "the real slim shady",
+    "desc": "Stand up for the rest of the game",
+    "img": "102.png"
+  }, {
+    "name": "Thief",
+    "desc": "Take a drink of your neighbours drink",
+    "img": "103.png"
+  }, {
+    "name": "threeman",
+    "desc": "whenever a row is completed take a drink - if you complete a row you make someone else the threeman",
+    "img": "104.png"
+  }, {
+    "name": "time out",
+    "desc": "stand with your face in the corner of the room until your next turn. no talking or drinking",
+    "img": "105.png"
+  }, {
+    "name": "Touchy feely",
+    "desc": "Everyone must remove the first piece they touch",
+    "img": "106.png"
+  }, {
+    "name": "truth or date",
+    "desc": "Pick Truth or Dare",
+    "img": "107.png"
+  }, {
+    "name": "Wasted Education",
+    "desc": "Drink 1 for every year you spent in Uni that is now meaningless in your chosen profession.",
+    "img": "108.png"
+  }, {
+    "name": "Waterfall",
+    "desc": "You start drinking, person to your left starts and so on. When you stop person to your left stops and so on",
+    "img": "109.png"
+  }, {
+    "name": "Yes or No",
+    "desc": "Everyone asks you a Yes or No question. If you dont want to answer you drink",
+    "img": "110.png"
   }]
 }
