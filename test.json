@@ -1,7 +1,7 @@
 {
   "blocks": [{
     "name": "2 truths & a lie",
-    "desc": "Tell 2 truths and a lie, everyone guesses what the lie is. You drink whenever someone guesses correctly",
+    "desc": "Tell 2 truths and a lie, You drink whenever someone guesses what the lie is",
     "img": "1.png"
   }, {
     "name": "4 Eyes",
