@@ -6,10 +6,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
+  /*
+  <div class="column">
+
+
+    <div class="card">
+      <img src="1.png" alt="Avatar" style="width:100%"><div class="container"><h4 class = "card-title"><b>2 Truths and a Lie</b></h4><p>Tell 2 truths and a lie, everyone guesses what the lie is. You drink whenever someone guesses correctly</p></div></div></div>*/
   $(function() {
     $.getJSON("test.json", function(data){
-            console.log(data.name); // Prints: Harry
-            console.log(data.age); // Prints: 14
+            var blocks = data.blocks
+            for (i = 0,i<blocks.length; i ++ ){
+              var current = '<div class = "column"> <div class = "card"><img src="'+ blocks[i].img+'" alt="Avatar" style="width:100%"><div class="container"><h4 class = "card-title"><b>'+blocks[i].name+'</b></h4><p>'+blocks[i].desc+'</p></div></div></div>';
+              $(".row").append(current);   // Append new elements
+            }
         }).fail(function(){
             console.log("An error has occurred.");
         });
@@ -100,234 +109,7 @@ img {
     margin-bottom: 15px;">
 <div id="myDIV">
   <div class="row" id = "myItems">
-    <div class="column">
 
-
-      <div class="card">
-        <img src="1.png" alt="Avatar" style="width:100%">
-        <div class="container">
-
-          <h4 class = "card-title"><b>2 Truths and a Lie</b></h4>
-          <p>Tell 2 truths and a lie, everyone guesses what the lie is. You drink whenever someone guesses correctly</p>
-        </div>
-      </div>
-    </div>
-
-   <div class="column">
-
-
-      <div class="card">
-        <img src="2.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 class = "card-title"><b>4 Eyes</b></h4>
-          <p>Anyone with glasses drinks</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="3.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 class = "card-title"><b>Accent</b></h4>
-          <p>Speak with an accent for the rest of the game</p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="4.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 class = "card-title"><b>Archenemy</b></h4>
-          <p>Give someone 4 drinks</p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="5.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 class = "card-title"><b>4 Eyes</b></h4>
-          <p>Interior Designer</p>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <img src="6.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4 class = "card-title"><b>4 Eyes</b></h4>
-          <p>Interior Designer</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-
-       <div class="card">
-         <img src="7.png" alt="Avatar" style="width:100%">
-         <div class="container">
-             <h4 class = "card-title"><b>Baby Talk</b></h4>
-           <p>Interior Designer</p>
-         </div>
-       </div>
-     </div>
-
-     <div class="column">
-
-
-        <div class="card">
-          <img src="8.png" alt="Avatar" style="width:100%">
-          <div class="container">
-              <h4 class = "card-title"><b>Jane moo</b></h4>
-            <p>Interior Designer</p>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-
-
-         <div class="card">
-           <img src="9.png" alt="Avatar" style="width:100%">
-           <div class="container">
-               <h4 class = "card-title"><b>Jane moo</b></h4>
-             <p>Interior Designer</p>
-           </div>
-         </div>
-       </div>
-       <div class="column">
-
-
-          <div class="card">
-            <img src="10.png" alt="Avatar" style="width:100%">
-            <div class="container">
-                <h4 class = "card-title"><b>Jane moo</b></h4>
-              <p>Interior Designer</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-
-
-           <div class="card">
-             <img src="11.png" alt="Avatar" style="width:100%">
-             <div class="container">
-                 <h4 class = "card-title"><b>Jane moo</b></h4>
-               <p>Interior Designer</p>
-             </div>
-           </div>
-         </div>
-         <div class="column">
-
-
-            <div class="card">
-              <img src="12.png" alt="Avatar" style="width:100%">
-              <div class="container">
-                  <h4 class = "card-title"><b>Jane moo</b></h4>
-                <p>Interior Designer</p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-
-
-             <div class="card">
-               <img src="13.png" alt="Avatar" style="width:100%">
-               <div class="container">
-                   <h4 class = "card-title"><b>Jane moo</b></h4>
-                 <p>Interior Designer</p>
-               </div>
-             </div>
-           </div>
-           <div class="column">
-
-
-              <div class="card">
-                <img src="14.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4 class = "card-title"><b>Jane moo</b></h4>
-                  <p>Interior Designer</p>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-
-
-               <div class="card">
-                 <img src="15.png" alt="Avatar" style="width:100%">
-                 <div class="container">
-                     <h4 class = "card-title"><b>Jane moo</b></h4>
-                   <p>Interior Designer</p>
-                 </div>
-               </div>
-             </div>
-             <div class="column">
-
-
-                <div class="card">
-                  <img src="16.png" alt="Avatar" style="width:100%">
-                  <div class="container">
-                      <h4 class = "card-title"><b>Jane moo</b></h4>
-                    <p>Interior Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-
-
-                 <div class="card">
-                   <img src="17.png" alt="Avatar" style="width:100%">
-                   <div class="container">
-                       <h4 class = "card-title"><b>Jane moo</b></h4>
-                     <p>Interior Designer</p>
-                   </div>
-                 </div>
-               </div>
-               <div class="column">
-
-
-                  <div class="card">
-                    <img src="18.png" alt="Avatar" style="width:100%">
-                    <div class="container">
-                        <h4 class = "card-title"><b>Jane moo</b></h4>
-                      <p>Interior Designer</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="column">
-
-
-                   <div class="card">
-                     <img src="19.png" alt="Avatar" style="width:100%">
-                     <div class="container">
-                         <h4 class = "card-title"><b>Jane moo</b></h4>
-                       <p>Interior Designer</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="column">
-
-
-                    <div class="card">
-                      <img src="20.png" alt="Avatar" style="width:100%">
-                      <div class="container">
-                          <h4 class = "card-title"><b>Jane moo</b></h4>
-                        <p>Interior Designer</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="column">
-
-
-                     <div class="card">
-                       <img src="21.png" alt="Avatar" style="width:100%">
-                       <div class="container">
-                           <h4 class = "card-title"><b>Jane moo</b></h4>
-                         <p>Interior Designer</p>
-                       </div>
-                     </div>
-                   </div>
 
 
 
