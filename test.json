@@ -1,1 +1,7 @@
-{"name": "Harry", "age": 14}
+{
+  "blocks": [{
+    "name": "2 Truths and a Lie",
+    "desc": "Tell 2 truths and a lie, everyone guesses which is the lie. You drink for every correct guess",
+    "img":"1.png"
+  }]
+}
