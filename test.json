@@ -3,5 +3,10 @@
     "name": "2 Truths and a Lie",
     "desc": "Tell 2 truths and a lie, everyone guesses which is the lie. You drink for every correct guess",
     "img":"1.png"
+  },
+  {
+    "name": "4 Eyes",
+    "desc": "Anyone with glasses drinks",
+    "img":"3.png"
   }]
 }
