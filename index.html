@@ -15,7 +15,7 @@
   $(function() {
     $.getJSON("test.json", function(data){
             var blocks = data.blocks
-            for (i = 0,i<blocks.length; i ++ ){
+            for (i = 0;i<blocks.length; i ++){
               var current = '<div class = "column"> <div class = "card"><img src="'+ blocks[i].img+'" alt="Avatar" style="width:100%"><div class="container"><h4 class = "card-title"><b>'+blocks[i].name+'</b></h4><p>'+blocks[i].desc+'</p></div></div></div>';
               $(".row").append(current);   // Append new elements
             }
